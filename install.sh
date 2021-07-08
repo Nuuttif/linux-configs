@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen
+pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox
 mv config ..
 mv fi ..
 mv .xinitrc ..

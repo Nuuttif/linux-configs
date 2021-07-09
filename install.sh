@@ -2,14 +2,15 @@
 
 pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox alacritty
 mv config ..
-mv fi ..
+mv fi /usr/share/X11/xkb/symbols
 mv .xinitrc ..
 mv .zshrc ..
 mv w ..
 mv picom.conf ..
 
+mv -r ubuntu /usr/share/fonts
+
 cd ..
-mv fi /usr/share/X11/xkb/symbols
 
 mkdir Wallpapers
 mkdir .config
@@ -18,6 +19,9 @@ mv config .config/i3
 
 mkdir .config/picom
 mv picom.conf .config/picom
+
+mkdir .config/alacritty
+mv alacritty.yml .config/alacritty
 
 git clone https://github.com/dylanaraps/wal
 mv wal/wal /usr/local/bin

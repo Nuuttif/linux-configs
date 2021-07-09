@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox alacritty picom
+pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox alacritty
 mv config ..
 mv fi ..
 mv .xinitrc ..
@@ -25,5 +25,8 @@ rm -r wal
 
 chmod +x w
 mv w /usr/local/bin
+
+chmod ugo+rwx Wallpapers
+chmod ugo+rwx .config
 
 exit

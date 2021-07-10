@@ -1,0 +1,12 @@
+How to fix wifi:
+
+pacman -S dhclient wifi-menu
+
+wifi-menu connection fails.
+cd /etc/netcl
+
+edit wifi profile, add:
+ForceConnect=yes
+DHCPClient="dhclient"
+
+

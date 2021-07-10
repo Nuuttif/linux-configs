@@ -7,8 +7,9 @@ mv .xinitrc ..
 mv .zshrc ..
 mv w ..
 mv picom.conf ..
+mv alacritty.yml ..
 
-mv -r ubuntu /usr/share/fonts
+cp -r ubuntu /usr/share/fonts
 
 cd ..
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox alacritty feh pcmanfm dhclient
+pacman -S xorg xorg-server xorg-xinit i3-gaps imagemagick nitrogen firefox alacritty feh pcmanfm
 mv config ..
 mv fi /usr/share/X11/xkb/symbols
 mv .xinitrc ..

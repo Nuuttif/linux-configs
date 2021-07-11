@@ -8,6 +8,7 @@ mv .zshrc ..
 mv w ..
 mv picom.conf ..
 mv alacritty.yml ..
+mv config.rasi ..
 
 cp -r ubuntu /usr/share/fonts
 
@@ -23,6 +24,9 @@ mv picom.conf .config/picom
 
 mkdir .config/alacritty
 mv alacritty.yml .config/alacritty
+
+mkdir .config/rofi
+mv config.rasi .config/rofi
 
 git clone https://github.com/dylanaraps/wal
 mv wal/wal /usr/local/bin

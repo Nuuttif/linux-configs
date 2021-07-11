@@ -33,4 +33,6 @@ mv w /usr/local/bin
 chmod ugo+rwx Wallpapers
 chmod ugo+rwx .config
 
+rm -r i3 alacritty picom rofi
+
 exit

@@ -3,7 +3,7 @@ How to fix wifi:
 pacman -S dhclient wifi-menu
 
 wifi-menu connection fails.
-cd /etc/netcl
+cd /etc/netctl
 
 edit wifi profile, add:
 ForceConnect=yes

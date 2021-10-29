@@ -294,6 +294,9 @@ zstyle ':completion:*:ssh:*' group-order \
    hosts-domain hosts-host users hosts-ipaddr
 zstyle '*' single-ignored show
 
+# Uncomment if use emacs
+#export "PATH=$HOME/.emacs.d/bin:$PATH"
+
 ### Source plugins
 ##################
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -7,8 +7,3 @@ alias pstorm='open -na "PhpStorm.app"'
 alias emacs='open -a /Applications/Emacs.app'
 
 source ~/.bash_profile
-
-# BEGIN SNIPPET: Magento Cloud CLI configuration
-HOME=${HOME:-'/Users/nuuttiviitajylha'}
-export PATH="$HOME/"'.magento-cloud/bin':"$PATH"
-if [ -f "$HOME/"'.magento-cloud/shell-config.rc' ]; then . "$HOME/"'.magento-cloud/shell-config.rc'; fi # END SNIPPET
